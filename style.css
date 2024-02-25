@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 50px;
+}
+#icon{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: azure;
+    border-radius: 50%;
+}
+.ri-shopping-cart-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 30% 20% 50%;
+}
+
+.lefttop{
+    margin: 3rem;
+    /* background-color: red; */
+}
+div h1{
+    font-size: 50px;
+    margin-left: 100px;
+}
+.leftmiddle{
+    margin: 3rem;
+    /* background-color: aqua; */
+}
+.leftmiddle p{
+    margin-left: 100px;
+}
+.right{
+    grid-row: 1/3;
+    grid-column: 2;
+    /* background-color: blueviolet; */
+    padding: 200px 50px 50px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:start ;
+}
+.right div h2{
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black ;
+    font-weight: 300;
+}
+
+.add-to-cart{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.product-detail{
+    width: 100%;
+    /* background-color: bisque; */
+}
+.shipping{
+    width: 100%;
+    /* background-color: brown; */
+}
+.bottom{
+    grid-column: 1/3;
+    background-color: blue;
+    background: url(teahub.io-indian-ladki-wallpaper-1347842.jpg);
+    background-size: cover;
+    background-position: 30%;
+}
